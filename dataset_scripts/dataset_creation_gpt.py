@@ -68,8 +68,8 @@ def generation(
         try:
             result = generator.generate(prompt)
             success = True
-        except OpenAIError:
-            print(f"Generation failed for prompt {prompt}, retrying {i + 1}/{retries}")
+        except OpenAIError as e:
+            print(e)
             time.sleep(1)
         else:
             break

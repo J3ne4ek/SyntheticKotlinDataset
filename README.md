@@ -14,12 +14,12 @@ python dataset_scripts/dataset_creation_gpt.py
 python dataset_scripts/filtering_and_splitting.py
 ```
 
-To benchmark model
+To benchmark model. You can specify model using parameter --model_path
 ```bash
-python benchmark.py
+python benchmark.py --model_path Salesforce/codegen-350M-mono
 ```
 
-To fine-tune model
+To fine-tune model. You can specify model_path, dataset_path and output_path
 ```bash
 python train.py
 ```

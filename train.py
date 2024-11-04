@@ -38,7 +38,9 @@ def main(args):
         # run_name=f"{run_name}-{datetime.now().strftime('%Y-%m-%d-%H-%M')}"
     )
 
-    train_dataset, test_dataset = get_datasets("kotlin_dataset/results.jsonl", tokenizer)
+    train_dataset, test_dataset = get_datasets(
+        "kotlin_dataset/results.jsonl", tokenizer
+    )
 
     trainer = Trainer(
         model=model,
