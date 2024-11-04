@@ -45,7 +45,7 @@ Before training, the model does not know Kotlin, since it was taught only in Pyt
 | Model                                | Pass rate |
 |--------------------------------------|---------|
 | Baseline                             | 0.621   |
-| Fine-tuned with JetBrains/KExercises | 9.31    |
-| Fine-tuned with my dataset           | 11.180  |
+| Fine-tuned with JetBrains/KExercises | 11.180  |
+| Fine-tuned with my dataset           | 9.31  |
 
 
